@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="pop_icon_resize_size">20dp</dimen>
+    <dimen name="pop_icon_add_size">15dp</dimen>
+
+    <dimen name="pop_icon_drag_size">20dp</dimen>
+
+</resources>

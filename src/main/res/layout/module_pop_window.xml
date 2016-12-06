@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ll_panel"
+	android:layout_width="250dp"
+	android:layout_height="105dp"
+	android:background="#000"
+	android:orientation="vertical">
+
+
+	<RelativeLayout
+		android:id="@+id/rl_panel"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true"
+			android:gravity="center">
+
+			<ImageButton
+				android:id="@+id/ib_alpha_fast_lighter"
+				style="@style/pop_icon_alpha"
+				android:layout_margin="0dp"
+				android:padding="0dp"
+				android:src="@mipmap/icon_fast_rewind_white"/>
+
+			<ImageButton
+				android:id="@+id/ib_alpha_lighter"
+				style="@style/pop_icon_alpha"
+				android:src="@mipmap/icon_remove_white"/>
+
+			<EditText
+				android:id="@+id/et_alpha"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="@dimen/gap_small"
+				android:layout_marginRight="@dimen/gap_small"
+				android:editable="false"
+				android:inputType="numberDecimal"
+				android:padding="0dp"
+				android:text="0.95"
+				android:textColor="@color/white"
+				android:textSize="@dimen/text_small"/>
+
+			<ImageButton
+				android:id="@+id/ib_alpha_darker"
+				style="@style/pop_icon_alpha"
+				android:src="@mipmap/icon_add_white"/>
+
+			<ImageButton
+				android:id="@+id/ib_alpha_fast_darker"
+				style="@style/pop_icon_alpha"
+				android:src="@mipmap/icon_fast_forward_white"/>
+
+		</LinearLayout>
+
+		<ImageButton
+			android:id="@+id/ib_drag_center"
+			style="@style/pop_icon_resize"
+			android:layout_width="@dimen/pop_icon_drag_size"
+			android:layout_height="@dimen/pop_icon_drag_size"
+			android:layout_centerInParent="true"
+			android:src="@mipmap/icon_pets_white"/>
+
+		<ImageButton
+			android:id="@+id/ib_resize_right_top"
+			style="@style/pop_icon_resize"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentTop="true"
+			android:src="@mipmap/icon_close_white"/>
+
+		<ImageButton
+			android:id="@+id/ib_resize_left_top"
+			style="@style/pop_icon_resize"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+			android:src="@mipmap/icon_border_all_white"/>
+
+		<ImageButton
+			android:id="@+id/ib_resize_right_bottom"
+			style="@style/pop_icon_resize"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true"
+			android:src="@mipmap/icon_border_all_white"/>
+
+
+	</RelativeLayout>
+
+</LinearLayout>

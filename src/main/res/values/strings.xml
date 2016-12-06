@@ -1,0 +1,8 @@
+<resources>
+	<string name="app_name">ScreenHoverer</string>
+	<string name="action_settings">Settings</string>
+
+	<string name="pop_toast_double_click_to_show_options_panel">Double click to show the options panel!</string>
+	<string name="pop_toast_long_click_to_show_options_panel">Long click to show the options panel!</string>
+
+</resources>

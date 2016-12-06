@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="pop_icon_alpha" parent="ib_icon">
+		<item name="android:layout_width">@dimen/pop_icon_add_size</item>
+		<item name="android:layout_height">@dimen/pop_icon_add_size</item>
+		<item name="android:background">@drawable/bg_transparent_corner_5dp</item>
+		<item name="android:layout_margin">@dimen/gap_small</item>
+	</style>
+
+	<style name="pop_icon_resize" parent="ib_icon">
+		<item name="android:layout_width">@dimen/pop_icon_resize_size</item>
+		<item name="android:layout_height">@dimen/pop_icon_resize_size</item>
+		<!--<item name="android:background">@drawable/bg_transparent_corner_5dp</item>-->
+		<item name="android:background">@color/transparent</item>
+	</style>
+
+	<style name="pop_icon_drag" parent="ib_icon">
+		<item name="android:layout_width">@dimen/pop_icon_drag_size</item>
+		<item name="android:layout_height">@dimen/pop_icon_drag_size</item>
+		<item name="android:background">@drawable/bg_transparent_corner_5dp</item>
+	</style>
+
+</resources>
